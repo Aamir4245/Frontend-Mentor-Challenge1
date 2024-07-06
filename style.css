@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "FigTree", sans-serif;
+}
+
+#card-container {
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 2px 0px black;
+    margin: 95px auto;
+}
+
+#main-img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#capsule {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    width: 80px;
+    text-align: center;
+}
+
+#date {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+h3:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+#content {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.4;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#user-name {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#user-info img {
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.1px 0px 0px black;
+}
+
+/* Media Queries for Mobile Design. */
+
+@media only screen and (max-width: 375px) {
+    #card-container {
+        width: 80%;
+    }
+
+    #date {
+        font-size: 0.8rem;
+    }
+
+    #content {
+        font-size: 0.9rem;
+    }
+
+    h3:hover {
+        color: hsl(47, 88%, 63%);
+    }
+}
